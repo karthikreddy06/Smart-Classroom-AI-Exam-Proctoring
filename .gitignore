@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data / datasets
+dataset.zip
+*.zip
+*.tar.gz
+dataset/
+runs/
+
+# Model weights (optional, keep best.pt if small)
+# models/*.pt
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test images / local captures
+droidcam_*.jpg
+
+# Sub-projects / embedded repos
+Smart-Classroom-Cheating-Detection-YOLO26/
